@@ -1,0 +1,9 @@
+//hacer algo que listaDivs se llene con los nombres de las
+//clases de los div que están dentro de container
+$listaDivs: "c", "d", "e";
+
+@each $item in $listaDivs {
+  .#{$item} {
+
+  } 
+}
